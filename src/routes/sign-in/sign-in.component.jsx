@@ -1,5 +1,8 @@
 import { Outlet } from "react-router-dom";
-import { signInWithGooglePopup, createUserDocumentFromAuth } from '../../utils/firebase/firebase.utils';
+import {
+  signInWithGooglePopup,
+  createUserDocumentFromAuth,
+} from '../../utils/firebase/firebase.utils';
 
 import './sign-in.styles.scss'
 
