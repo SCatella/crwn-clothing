@@ -1,9 +1,9 @@
-import CategoryItem from './components/category-items/category-items.component'
+import CategoryDirectory from './components/category-directory/category-directory.component'
 
 import './App.scss'
 
 const App = () => {
-  const category = [
+  const categories = [
     {
       "id": 1,
       "title": "hats",
@@ -32,7 +32,7 @@ const App = () => {
   ];
 
   return (
-    <CategoryItem category={ category } />
+    <CategoryDirectory category={ categories } />
   );
 }
 
