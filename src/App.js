@@ -1,4 +1,5 @@
 import { Routes, Route } from 'react-router-dom';
+// import { useState, useEffect } from 'react';
 
 import Navigation from './routes/navigation/navigation.component';
 import Home from './routes/home/home.component';
