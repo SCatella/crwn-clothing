@@ -1,4 +1,4 @@
-import CategoriesContainer from './components/categories-container/categories-container.component'
+import CategoryItem from './components/category-items/category-items.component'
 
 import './App.scss'
 
@@ -32,7 +32,7 @@ const App = () => {
   ];
 
   return (
-    <CategoriesContainer category={ category } />
+    <CategoryItem category={ category } />
   );
 }
 
