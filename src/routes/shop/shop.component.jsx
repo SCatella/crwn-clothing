@@ -1,5 +1,3 @@
-import { Outlet } from 'react-router-dom';
-
 import './shop.styles.scss';
 
 const Shop = () => {
@@ -8,7 +6,6 @@ const Shop = () => {
       <div>
         <h1>I am the shop</h1>
       </div>
-      <Outlet />
     </div>
   )
 }
