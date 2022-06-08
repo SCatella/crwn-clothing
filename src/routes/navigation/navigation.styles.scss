@@ -5,8 +5,7 @@
   justify-content: space-between;
   margin-bottom: 25px;
   text-transform: uppercase;
-  font-weight: bold;
-
+  
   .logo-container {
     height: 100%;
     width: 70px;
@@ -20,10 +19,11 @@
     align-items: center;
     justify-content: flex-end;
     
-      .nav-link {
-        padding: 10px 15px;
-        
-        cursor: pointer;
-      }
-    } 
+    .nav-link {
+      padding: 10px 15px;
+      
+      cursor: pointer;
+    }
+  }
 }
+
