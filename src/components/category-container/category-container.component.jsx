@@ -1,4 +1,6 @@
-const CategoryContainer = ({ id, title }) => (
+import './category-container.styles.scss'
+
+const CategoryContainer = ({ category: { id, title } }) => (
   <div className='category-container' key={id}>
     {/*<img className='category-image' />*/}
     <div className='category-body'>
