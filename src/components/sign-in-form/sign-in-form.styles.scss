@@ -1,0 +1,35 @@
+.sign-in-container {
+  display: flex;
+  width: 380px;
+  flex-direction: column;
+  text-transform: capitalize;
+  
+  h2 {
+    margin: 10px 0;
+  }
+
+}
+
+.buttons-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.sign-in-form {
+  display: flex;
+  flex-direction: column;
+
+  label {
+    padding-top: 20px;
+  }
+
+  input {
+    padding: 5px;
+  }
+
+  button {
+    width: 35%;
+    margin-top: 20px;
+    padding:3px;
+  }
+}
