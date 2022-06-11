@@ -1,9 +1,12 @@
-.sign-up-page {
+.sign-up-container {
   display: flex;
   flex-direction: column;
-  justify-content: flex-end;
+  width: 300px;
   text-transform: capitalize;
-  justify-content: center;
+  
+  h2 {
+    margin: 10px 0;
+  }
 }
 
 .sign-up-form {
